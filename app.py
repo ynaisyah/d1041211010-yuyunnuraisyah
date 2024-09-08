@@ -7,3 +7,9 @@ def luas_segitiga():
 
 luas_segitiga()
 
+def luas_lingkaran():
+    r = int(input("Masukan jari-jari lingkaran: "))
+    luas = 3.14 * r * r
+    print("Luas Lingkaran adalah: ", luas)
+
+luas_lingkaran()
