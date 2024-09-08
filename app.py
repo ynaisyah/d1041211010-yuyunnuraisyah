@@ -16,3 +16,10 @@ def luas_persegi_panjang():
 
 luas_persegi_panjang()
 
+def luas_lingkaran():
+    r = int(input('Masukan jari-jari lingkarang: '))
+    luas = 3.14 * r * r
+    print("Luas Lingkarang adalah: ", luas)
+
+luas_lingkaran()
+
